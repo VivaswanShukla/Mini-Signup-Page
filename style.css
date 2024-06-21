@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #D9AFD9, #97D9E1);
+}
+.innerbox{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    transform: translateY(10%);
+    padding: 10px 30px;
+    background: linear-gradient(to top left, #8ec5fcbb, #e0c3fc20);
+    border-radius: 15px;
+    box-shadow: #b94bb9 10px 10px 10px;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+}
+.signup{
+    /* margin: 5px 0px; */  
+    /* padding: 10px; */
+    width: 100%;
+}
+.signup p{
+    margin: 10px 0px;
+}
+.signup p label{
+    display: block;
+}
+.signup input{
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0px;
+    border: 1px solid rgb(195, 193, 193);
+    border-radius: 8px;
+    margin-top:7px ;
+}
+#submit{
+    background-color: whitesmoke;
+    color: #b94bb9;
+    cursor: pointer;
+}
+#submit:hover{
+    background: linear-gradient(to top left, #FFDEE9, #B5FFFC);
+    color:#b94bb9;
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    color:#b94bb9;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+}
+.c1{
+    background: linear-gradient(to top left, #b94bb9,  #B5FFFC);
+    top: 100px;
+    left: 500px;
+}
+.c2{
+    background: linear-gradient(to top right, #B5FFFC, #b94bb9);
+    bottom: 100px;
+    right: 100px;
+}
